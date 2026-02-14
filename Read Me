@@ -1,65 +1,77 @@
 🚗 Vehicle Sales Performance & Pricing Strategy Analysis
+
 📌 About This Project
-
 This project analyzes over 500,000 vehicle sales records to evaluate revenue performance, pricing strategy, and regional behavior across U.S. states.
-
 The goal was not just to build a dashboard — but to simulate a real business intelligence scenario for a nationwide dealership network and extract actionable insights.
 
 🎯 What I Wanted to Understand
 
 Which states generate the highest revenue?
-
 Are vehicles being sold above or below market value (MMR)?
-
 Is the business prioritizing volume or margin?
-
 Are there regional pricing inconsistencies?
-
 How does revenue evolve over time?
 
 🛠 Tools Used
 
 Power BI
-
 DAX
-
 Power Query
-
 Data Cleaning & Transformation
-
 Business KPI Design
 
 🧹 Data Preparation
 
 The raw dataset contained:
-
 545K+ rows
-
 Missing brand values
-
 Text-based date formats
-
 Structurally corrupted state records
 
 What I did:
-
 Cleaned and standardized missing values
-
 Removed invalid and corrupted rows
-
 Converted string dates into proper date formats
-
 Engineered new columns:
-
 Sale Year
-
 Sale Month
-
 Price vs Market Difference
-
 Pricing Category (Above / Below / At Market)
 
 📊 Key Insights
-1️⃣ Revenue Concentration
 
+1️⃣ Revenue Concentration
 Revenue is heavily concentrated in a few key states such as Florida and California, indicating strong regional dominance.
+
+2️⃣ Pricing Strategy
+Over 50% of vehicles were sold below market value (MMR).
+This suggests a volume-driven strategy rather than a premium pricing approach.
+
+3️⃣ Regional Discount Behavior
+Some states show significantly negative total price differences, indicating aggressive discounting, while others maintain more balanced pricing.
+This reveals inconsistency in regional pricing governance.
+
+4️⃣ Revenue Volatility
+Monthly revenue trends show strong fluctuations, suggesting demand seasonality and potential operational volatility.
+
+💡 Business Interpretation
+
+The dealership appears to prioritize sales volume over per-unit margin.
+While this increases revenue throughput, a sustained discount-driven strategy may compress long-term profitability.
+Regional pricing strategy could be optimized to balance competitiveness with margin protection.
+
+🧠 Skills Demonstrated
+
+End-to-end data cleaning
+Feature engineering
+DAX measure creation
+KPI dashboard design
+Interactive Power BI reporting
+Business storytelling from raw data
+
+📷 Dashboard Preview
+
+(Screenshots included in repository)
+
+If you're reviewing this as a recruiter or hiring manager:
+This project reflects my ability to take messy real-world data, structure it properly, build insights, and communicate business impact clearly.
