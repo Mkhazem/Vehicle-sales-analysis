@@ -4,6 +4,9 @@
 This project analyzes over 500,000 vehicle sales records to evaluate revenue performance, pricing strategy, and regional behavior across U.S. states.
 The goal was not just to build a dashboard — but to simulate a real business intelligence scenario for a nationwide dealership network and extract actionable insights.
 
+Data Source: Kaggle – Vehicle Sales Dataset
+https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data?resource=download
+
 🎯 What I Wanted to Understand
 
 Which states generate the highest revenue?
